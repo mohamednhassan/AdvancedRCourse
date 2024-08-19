@@ -1,7 +1,7 @@
 name: "Mohamed N. Hassan"                                # CHANGE HERE 
 output_dir: "."
 navbar:
-  title: "Day1_Git"                             # CHANGE HERE 
+  title: "Day1_Git_renamed"                             # CHANGE HERE 
   type: inverse
   left:
     - text: "Home"
@@ -15,7 +15,7 @@ navbar:
       href: cv.html
     - text: "Blog"
       icon: fa-rss
-      href: https://github.com/mohamednhassan/rmarkdown-website-template/  # CHANGE HERE OR DELETE ALL 3 LINES 
+      href: mohamednhassan.github.io/  # CHANGE HERE OR DELETE ALL 3 LINES 
   right:
     - text: "Contact me"
       icon: fa-envelope-o
