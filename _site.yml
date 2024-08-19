@@ -1,0 +1,29 @@
+name: "Mohamed Hassan"                                # CHANGE HERE 
+output_dir: "."
+navbar:
+  title: "Day1_Git"                             # CHANGE HERE 
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-user 
+      href: about.html
+    - text: "CV"
+      icon: fa-file-pdf-o
+      href: cv.html
+    - text: "Blog"
+      icon: fa-rss
+      href: https://github.com/mohamednhassan/rmarkdown-website-template/  # CHANGE HERE OR DELETE ALL 3 LINES 
+  right:
+    - text: "Contact me"
+      icon: fa-envelope-o
+      href: mailto:mo.hassan@biomed.au.dk                    # CHANGE HERE 
+    - text: "GitHub"
+      icon: fa-github
+      href: https://github.com/mohamednhassan       # CHANGE HERE 
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
